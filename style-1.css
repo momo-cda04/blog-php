@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.header{
+    background-color: rgb(26, 65, 192);
+    position: fixed;
+    width: 100%;
+    right: 0;
+    top: 0px;
+        
+} 
+
+li{
+    list-style: none;
+    margin-left: 230px;
+    margin-right: -60px;
+}
+
+
+
+
+
+/* display flex pour que les deux blocs h1 et ul soient cote à cote*/
+nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px;   
+}
+
+/* display flex pour que les li soient cote à cote*/
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    align-items: center;
+ 
+    
+}
+
+.menuD {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#logo{
+    color: blanchedalmond;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.accueil {
+    margin-top: 40px;
+    height: 500px;
+    width: 100%;
+}
+
+#background{
+    background-image:url(img/pc.jpg);
+    width: 100%;
+    height: 600px;
+    opacity: 0.40;
+    margin: auto;
+    z-index: 1;
+    position: absolute;
+}
+
+#titreAccueil {
+
+    color :rgb(62, 106, 230);
+    font-size: 60px;  
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:300px;
+    z-index: 2;   
+}
+
+
+
+
+#titrePrez {
+    color :black;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 40px;   
+}
+
+.Apropos{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px; 
+}
+
+#moi {
+    color: black;
+    margin-top: 100px;
+    width: 50%;
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    text-align: justify;
+    margin-left: 100px;
+
+    
+
+}
+
+img {
+    
+    width:220px; 
+    height:300px;
+    align-items: center;
+    display: flex;
+    margin-left: 200px;
+    margin-top: auto;
+    
+}
+
+
+.parcours {
+    background-color: rgba(224, 223, 223, 0.651);
+    margin-top: 120px;
+    height: 1500px;
+    width: 100%;
+}
+
+#titreParc{
+    color :black;
+    padding-top: 130px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#formation {
+    margin-top: 130px;
+    color: black;
+    text-align: left;
+    width: 50%;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 50px;
+}
+
+.competence {
+    background-color: black;
+    height: 740px;
+    width: 100%;
+}
+
+#titreComp{
+    color: white;
+    padding-top: 130px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+#competenceP {
+    margin-top: 130px;
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+   
+}
+
+.contact {
+    background-color: rgba(224, 223, 223, 0.651);
+    
+    height: 500px;
+    width: 100%;
+}
+
+#titreContact{
+    color :black;
+    padding-top: 130px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+#message {
+    margin-top: 130px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer {
+    background-color: black;
+    height: 30px;
+    width: 100%;
+}
+
+#lien {
+    text-align: center;
+    color: blue;
+}
+
+
+#corp{
+    color :white;
+    text-align: center;
+    font-size: 15px;
+    top: 15px;
+}
+
